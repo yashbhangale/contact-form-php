@@ -1,6 +1,6 @@
 const form = document.querySelector("form"),
 statusTxt = form.querySelector(".button-area span");
-
+emailjs.send("service_hj8sobj","template_9g2cmeu");
 form.onsubmit = (e)=>{
   e.preventDefault();
   statusTxt.style.color = "#0D6EFD";
